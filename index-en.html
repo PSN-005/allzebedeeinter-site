@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Workspace Setup & Security Audit | allzebedeeinter.biz</title>
+  <style>
+    :root { --bg:#0b1220; --card:#101b33; --text:#eaf0ff; --muted:#b8c3e6; --accent:#7aa2ff; --ok:#60d394; }
+    body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+           background: linear-gradient(180deg, #070b14, var(--bg)); color:var(--text); }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 56px; }
+    .top { display:flex; gap:18px; align-items:center; justify-content:space-between; flex-wrap:wrap; }
+    .brand { font-weight: 700; letter-spacing: .02em; opacity:.95; }
+    .pill { border:1px solid rgba(255,255,255,.18); padding:8px 12px; border-radius:999px; color:var(--muted); font-size:13px; }
+    .hero { margin-top: 28px; display:grid; grid-template-columns: 1.2fr .8fr; gap:18px; }
+    @media (max-width: 860px){ .hero{ grid-template-columns:1fr; } }
+    h1 { font-size: 40px; line-height: 1.15; margin:0 0 12px; }
+    .sub { color: var(--muted); font-size: 16px; line-height: 1.6; margin: 0 0 18px; }
+    .cta { display:flex; gap:12px; flex-wrap:wrap; }
+    .btn { display:inline-block; text-decoration:none; padding:12px 14px; border-radius:12px; font-weight:700; }
+    .btn.primary { background: var(--accent); color:#081023; }
+    .btn.ghost { border:1px solid rgba(255,255,255,.2); color:var(--text); }
+    .card { background: rgba(16,27,51,.92); border:1px solid rgba(255,255,255,.10); border-radius:16px; padding:16px; }
+    .list { margin: 14px 0 0; padding:0; list-style:none; display:grid; gap:10px; }
+    .list li { display:flex; gap:10px; align-items:flex-start; color:var(--muted); }
+    .dot { width:10px; height:10px; border-radius:3px; background: var(--ok); margin-top:6px; flex:0 0 auto; }
+    .grid3 { margin-top: 22px; display:grid; grid-template-columns: repeat(3, 1fr); gap:14px; }
+    @media (max-width: 860px){ .grid3{ grid-template-columns:1fr; } }
+    .price { font-size: 26px; font-weight:800; margin:10px 0; }
+    .small { color:var(--muted); font-size: 13px; line-height:1.5; }
+    .hr { height:1px; background: rgba(255,255,255,.12); margin:18px 0; }
+    .footer { margin-top: 28px; color: var(--muted); font-size: 13px; }
+    code { background: rgba(255,255,255,.08); padding: 2px 6px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand">Zebedee Enterprise LLC / allzebedeeinter.biz</div>
+      <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+        <div class="pill">Workspace setup • Anti-spoofing • Operations</div>
+        <span class="btn ghost" style="opacity:.7; cursor:default;">English</span>
+        <a class="btn ghost" href="./index-ja.html">日本語</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div>
+        <h1>Get Google Workspace<br>secure and ready to use<br>within 48 hours.</h1>
+        <p class="sub">
+          We handle everything end-to-end: custom domain email setup, SPF/DKIM/DMARC (anti-spoofing), MFA enforcement, and Drive sharing design.<br>
+          A done-for-you setup package for small businesses and independent professionals in Japan.
+        </p>
+
+   <div class="cta">
+      <a class="btn primary" href="https://calendar.app.google/BLgj4RZ5Uai9nhMk9" target="_blank" rel="noopener">Book a free 10-minute check</a>
+      <a class="btn ghost" href="#intake">Fill out the diagnostic form</a>
+   </div>
+
+   <p class="small" style="margin-top:10px;">
+      We reply within 1 business day.
+   </p>
+
+        <ul class="list">
+          <li><span class="dot"></span><span><b>Anti-spoofing</b>: Configure SPF/DKIM/DMARC properly to protect your reputation and email deliverability.</span></li>
+          <li><span class="dot"></span><span><b>Security hardening</b>: Enforce MFA, review admin settings, and tighten sharing controls.</span></li>
+          <li><span class="dot"></span><span><b>Operational clarity</b>: Clean folder structure, permissions, and templates to reduce confusion and save time.</span></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <b>What this prototype does</b>
+        <div class="hr"></div>
+        <div class="small">
+          One page covers: ① showcasing the offer, ② booking a call, ③ collecting intake details, and ④ displaying pricing.<br><br>
+          Next step: replace the brand name, domain, and booking link—and you can start selling.
+        </div>
+        <div class="hr"></div>
+        <div class="small">
+          Time required: 1–3 hours setup / Delivery: as fast as 48 hours<br>
+          Service area: Japan (online)
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin:26px 0 10px;">Pricing (example)</h2>
+    <div class="grid3">
+      <div class="card">
+        <b>Light</b>
+        <div class="price">¥30,000</div>
+        <div class="small">1 user / Email setup + baseline security</div>
+        <div class="hr"></div>
+        <div class="small">
+          ✅ Domain email (1–3 addresses)<br>
+          ✅ SPF/DKIM/DMARC (baseline)<br>
+          ✅ MFA setup (admin + users)<br>
+          ✅ 30-minute handover call
+        </div>
+      </div>
+
+      <div class="card">
+        <b>Standard</b>
+        <div class="price">¥90,000</div>
+        <div class="small">2–5 users / Recommended configuration + Drive setup</div>
+        <div class="hr"></div>
+        <div class="small">
+          ✅ Everything in Light<br>
+          ✅ Drive folders + permissions design<br>
+          ✅ Sharing rules + external sharing review<br>
+          ✅ One-page report (Japanese)
+        </div>
+      </div>
+
+      <div class="card">
+        <b>Operations Pack</b>
+        <div class="price">¥180,000</div>
+        <div class="small">Templates + workflow setup</div>
+        <div class="hr"></div>
+        <div class="small">
+          ✅ Everything in Standard<br>
+          ✅ Quote / invoice / proposal templates<br>
+          ✅ Intake form + auto-reply<br>
+          ✅ 90-minute workflow session
+        </div>
+      </div>
+    </div>
+
+      
+    <div class="card" id="book" style="margin-top:18px;">
+      <b>Free 10-minute check (booking)</b>
+      <div class="small" style="margin-top:8px;">
+        Booking link:
+        <a href="https://calendar.app.google/BLgj4RZ5Uai9nhMk9" target="_blank" rel="noopener" style="color:inherit;">
+          https://calendar.app.google/BLgj4RZ5Uai9nhMk9
+        </a>
+      </div>
+    </div>
+
+  <div class="card" id="intake" style="margin-top:18px;">
+    <b>Diagnostic form (Google Forms)</b>
+     <div class="small" style="margin-top:8px;">
+    Please fill out the form below (1–2 minutes). We’ll reply shortly after you submit.
+  </div>
+
+  <div style="margin-top:12px;">
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLScUKB6ADWIkQbzbp4masbzKtolbw06n1uX7M7HD9nq9dYDoZA/viewform?embedded=true"
+      style="width:100%; max-width:760px; height:900px; border:0;"
+      loading="lazy"
+    >Loading…</iframe>
+  </div>
+</div>
+
+   <div class="footer">
+  <div style="margin-top:10px;">
+    Contact: <a href="mailto:info@allzebedeeinter.biz" style="color:inherit;">info@allzebedeeinter.biz</a>
+  </div>
+  <div style="margin-top:8px;">
+    © 2026 Zebedee Enterprise LLC. All rights reserved.
+  </div>
+</div>
